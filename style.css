@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to right, #9a1d86, #1595be);
     font-weight: bold;
 }
@@ -75,7 +75,7 @@ body {
 .next-track {
     padding: 25px;
     opacity: 0.8;
-    transition: opacity .2;
+    transition: opacity .2s;
 }
 
 .repeat-track:hover,
@@ -94,12 +94,12 @@ body {
 
 .seek_slider, .volume_slider {
     -webkit-appearance: none;
-    -moz-appaearance: none;
+    -moz-appearance: none;
     appearance: none;
     height: 5px;
     background: #83A9FF;
     -webkit-transition: .2s;
-    transition: opacity .2;
+    transition: opacity .2s;
 }
 
 .seek_slider::-webkit-slider-thumb,
@@ -112,7 +112,7 @@ body {
     background: white;
     border: 3px solid #3774FF;
     cursor: grab;
-    border-radius:100%;
+    border-radius: 100%;
 }
 
 .seek_slider:hover,
@@ -125,7 +125,7 @@ body {
 }
 
 .volume_slider {
-    width: 30%
+    width: 30%;
 }
 
 .current-time,
