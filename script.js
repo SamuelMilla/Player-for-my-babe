@@ -22,7 +22,7 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'images/Even-so.jpg',
+        img: 'images/Even-so.jpg',
         name : 'Even so',
         artist : 'Dosii',
         music : 'songs/Dosii - Even so.mp3'
@@ -30,22 +30,22 @@ const music_list = [
 
     {
         img: 'images/Anjo-de-papel.jpg',
-        name: '',
-        artist: '',
+        name: 'Anjo de papel',
+        artist: 'Felicia Rock',
         music: 'songs/Felicia rock - Anjo de papel.mp3'
     },
 
     {
         img: 'images/Silent-Solitude.jpg',
-        name: '',
-        artist: '',
+        name: 'Silent solitude',
+        artist: 'Miura Jam Cover',
         music: 'songs/Miura Jam Cover -Silent Solitude (PT BR).mp3'
     },
 
     {
         img: 'images/Primary.jpg',
-        name: '',
-        artist: '',
+        name: 'When i fall in love',
+        artist: 'Primary',
         music: 'songs/Primary - When I fall in love.mp3'
     },
 
@@ -58,8 +58,8 @@ const music_list = [
 
     {
         img: 'images/Adesso-e-fortuna.jpg',
-        name: '',
-        artist: '',
+        name: 'Adesso e fortuna',
+        artist: 'Akino Arai',
         music: 'songs/新居 昭乃 - Adesso e fortuna.mp3'
     }
 ];
