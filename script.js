@@ -13,7 +13,7 @@ let curr_time = document.querySelector('.current-time');
 let total_duration = document.querySelector('.total-duration');
 let wave = document.getElementById('wave');
 let randomIcon = document.querySelector('.fa-random');
-let curr_track = document.createElement('.audio');
+let curr_track = document.createElement('audio');
 
 let track_index = 0;
 let isPlaying = false;
@@ -181,7 +181,7 @@ function seekTo() {
 }
 
 function setVolume() {
-    curr_track.volume = volume_slider.value / 100/
+    curr_track.volume = volume_slider.value / 100;
 }
 
 function setUpdate() {
