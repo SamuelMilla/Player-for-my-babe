@@ -7,7 +7,7 @@ let playpause_btn = document.querySelector('.playpause-track');
 let next_btn = document.querySelector('.next-track');
 let prev_btn = document.querySelector('.prev-track');
 
-let seek_slider = document.querySelector('.seek_silder');
+let seek_slider = document.querySelector('.seek_slider');
 let volume_slider = document.querySelector('.volume_slider');
 let curr_time = document.querySelector('.current-time');
 let total_duration = document.querySelector('.total-duration');
@@ -76,7 +76,7 @@ function loadTrack(track_index) {
     track_art.style.backgroundImage = "url(" + music_list[track_index].img +")";
     track_name.textContent = music_list[track_index].name;
     track_artist.textContent = music_list[track_index].artist;
-    now_playing.textContent = "Playing music" + (track_index + 1) + " of " + music_list.length;
+    now_playing.textContent = "Playing music " + (track_index + 1) + " of " + music_list.length;
 
     updateTimer = setInterval(setUpdate, 1000);
 
@@ -177,7 +177,7 @@ function prevTrack() {
 
 function seekTo() {
     let seekto= curr_track.duration * (seek_slider.value / 100);
-    curr_track.currentTimme = seekto;
+    curr_track.currentTime = seekto;
 }
 
 function setVolume() {
