@@ -157,10 +157,6 @@ p {
     color: rgb(255, 0, 157);
 }
 
-.pauseTrack {
-    color: rgb(255, 0, 157);
-}
-
 .rotate {
     animation: rotation 15s infinite linear;
 }
