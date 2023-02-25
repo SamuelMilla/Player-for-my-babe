@@ -29,19 +29,19 @@ body {
 }
 
 .track-art {
-    margin: 25px;
-    height: 250px;
-    width: 250px;
-    border: 2px solid #FFFAFA;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px color  #000000;
     background-size: cover;
     background-position: center;
-    border-radius: 50%;
-    -moz-box-shadow: 0px 6px 5px black;
-    -webkit-box-shadow: 0px 6px 5px black;
-    box-shadow: 0px 6px 5px black;
+    border-radius: 57%;
+    -moz-box-shadow: 0px 3px 3px black;
+    -webkit-box-shadow: 0px 2px 2px black;
+    box-shadow: 0px 5px 5px black;
     -moz-border-radius: 190px;
     -webkit-border-radius: 190px;
-    border-radius: 190px;
+    border-radius: 170px;
 }
 
 .now-playing {
@@ -97,9 +97,9 @@ body {
     -moz-appearance: none;
     appearance: none;
     height: 5px;
-    background: #83A9FF;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
+    background: #fa00e6;
+    -webkit-transition: .1s;
+    transition: opacity .1s;
 }
 
 .seek_slider::-webkit-slider-thumb,
@@ -152,7 +152,7 @@ p {
 }
 
 .rotate {
-    animation: rotation 8s infinite linear;
+    animation: rotation 15s infinite linear;
 }
 
 @keyframes rotation {
@@ -164,29 +164,30 @@ p {
 }
 
 .loader {
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .loader .stroke {
-    background: #f1f1f1;
-    height: 150%;
+    background: rgb(255,255,255);
+    background: linear-gradient(70deg, rgba(255,255,255,1) 0%, rgba(158,0,255,1) 100%);
+    height: 200%;
     width: 10px;
-    border-radius: 50px;
+    border-radius: 10px;
     margin: 0 5px;
-    animation: animate 1.4s linear infinite;
+    animation: animate 2.4s linear infinite;
 }
 
 @keyframes animate {
     50% {
         height: 20%;
-        background: #4286f4;
+        background: linear-gradient(188deg, rgb(255, 255, 255) 0%, rgba(253,45,241,1) 100%);
     }
 
     100% {
-        background: #4286f4;
+        background: linear-gradient(188deg, rgb(242, 242, 242) 0%, rgb(229, 45, 253) 100%);
         height: 100%;
     }
 }
@@ -196,23 +197,23 @@ p {
 }
 
 .stroke:nth-child(2) {
-    animation-delay: 0.3s;
+    animation-delay: 0.6s;
 }
 
 .stroke:nth-child(3) {
-    animation-delay: 0.6s;
-}
-
-.stroke:nth-child(4) {
     animation-delay: 0.9s;
 }
 
+.stroke:nth-child(4) {
+    animation-delay: 0.12s;
+}
+
 .stroke:nth-child(5) {
-    animation-delay: 0.6s;
+    animation-delay: 0.9s;
 }
 
 .stroke:nth-child(6) {
-    animation-delay: 0.3s;
+    animation-delay: 0.6s;
 }
 
 .stroke:nth-child(7) {
