@@ -13,10 +13,8 @@ body {
 }
 
 .wrapper {
-    border: 1px solid transparent;
-    padding: 30px;
-    border-radius: 20px;
-    background: rgba(41, 44, 231);
+    padding: 50px;
+    border-radius: 50px;
     background: linear-gradient(173deg, rgba(41,44,231,0.9724264705882353) 0%, rgba(253, 95, 255, 1) 58%, rgba(178, 82,255,1) 100%);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
