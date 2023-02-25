@@ -27,7 +27,7 @@ body {
 }
 
 .track-art {
-    margin: 10px;
+    margin: 13px;
     height: 300px;
     width: 300px;
     border: 1px color  #000000;
@@ -36,23 +36,31 @@ body {
     border-radius: 57%;
     -moz-box-shadow: 0px 3px 3px black;
     -webkit-box-shadow: 0px 2px 2px black;
-    box-shadow: 0px 5px 5px black;
+    box-shadow: 10px 5px 15px black;
     -moz-border-radius: 190px;
     -webkit-border-radius: 190px;
     border-radius: 170px;
 }
 
 .now-playing {
-    font-size: 1rem;
+    font-size: 2rem;
+    color: #f08eff;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(77, 88, 255), 0 0 5px darkblue;
+
+
 }
 
 .track-name {
     font-size: 2.5rem;
+    color: #f08eff;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(234, 0, 255), 0 0 5px darkblue;
 }
 
 .track-artist {
     margin-top: 5px;
     font-size: 1.5rem;
+    color: #f08eff;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(234, 0, 255), 0 0 5px darkblue;
 }
 
 .buttons {
@@ -146,7 +154,11 @@ p {
 }
 
 .randomActive {
-    color: rgb(0, 140, 255);
+    color: rgb(255, 0, 157);
+}
+
+.pauseTrack {
+    color: rgb(255, 0, 157);
 }
 
 .rotate {
