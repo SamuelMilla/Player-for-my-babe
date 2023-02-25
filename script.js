@@ -95,10 +95,10 @@ function loadTrack(track_index) {
     updateTimer = setInterval(setUpdate, 1000);
 
     curr_track.addEventListener('ended', nextTrack);
-    random_bg_color();
+    //random_bg_color();
 }
 
-function random_bg_color() {
+/*function random_bg_color() {
     let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd',  'e'];
 
     let a;
@@ -118,7 +118,7 @@ function random_bg_color() {
 
     let gradient = 'linear-gradient(' + angle + ' , ' + Color1 + ' , ' + Color2 +')';
     document.body.style.background = gradient;
-}
+}*/
 
 function reset() {
     curr_time.textContent = "00:00";
