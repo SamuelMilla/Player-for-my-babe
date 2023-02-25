@@ -58,7 +58,7 @@ const music_list = [
 
     {
         img: 'images/Art-deco.jpg',
-        name: 'Art deco',
+        name: 'Art Deco',
         artist: 'Lana Del Rey',
         music: 'songs/Lana Del Rey  art deco.mp3'
     },
