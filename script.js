@@ -22,59 +22,332 @@ let updateTimer;
 
 const music_list = [
     {
-        img: 'images/Even-so.jpg',
-        name : 'Even so',
-        artist : 'Dosii',
-        music : 'songs/Dosii - Even so.mp3'
+        img: 'images/1.jpg',
+        name : 'Apocalypse',
+        artist : 'Cigarettes After Sex',
+        music : 'songs/1.mp3'
     },
 
     {
-        img: 'images/Anjo-de-papel.jpg',
-        name: 'Anjo de papel',
-        artist: 'Felicia Rock',
-        music: 'songs/Felicia rock - Anjo de papel.mp3'
+        img: 'images/2.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/2.mp3'
     },
 
     {
-        img: 'images/Silent-Solitude.jpg',
-        name: 'Silent solitude',
-        artist: 'Miura Jam Cover',
-        music: 'songs/Miura Jam Cover -Silent Solitude (PT BR).mp3'
+        img: 'images/3.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/3.mp3'
     },
 
     {
-        img: 'images/Primary.jpg',
-        name: 'When i fall in love',
-        artist: 'Primary',
-        music: 'songs/Primary - When I fall in love.mp3'
+        img: 'images/4.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/4.mp3'
     },
 
     {
-        img: 'images/Starstarstar.jpg',
-        name: 'Starstarstar',
-        artist: 'Dosii',
-        music: 'songs/Dosii - Starstarstar.mp3'
+        img: 'images/5.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/5.mp3'
     },
 
     {
-        img: 'images/Art-deco.jpg',
-        name: 'Art Deco',
-        artist: 'Lana Del Rey',
-        music: 'songs/Lana Del Rey  art deco.mp3'
+        img: 'images/6.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/6.mp3'
     },
 
     {
-        img: 'images/Born-To-Die.jpg',
-        name: 'Born To Die',
-        artist: 'Lana Del Rey',
-        music: 'songs/Lana Del Rey - Born To Die.mp3'
+        img: 'images/7.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/7.mp3'
     },
 
     {
-        img: 'images/Adesso-e-fortuna.jpg',
-        name: 'Adesso e fortuna',
-        artist: 'Akino Arai',
-        music: 'songs/新居 昭乃 - Adesso e fortuna.mp3'
+        img: 'images/8.jpg',
+        name : '',
+        artist : '',
+        music : 'songs/8.mp3'
+    },
+
+    {
+        img: 'images/9.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/9.mp3'
+    },
+
+    {
+        img: 'images/10.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/10.mp3'
+    },
+
+    {
+        img: 'images/11.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/11.mp3'
+    },
+
+    {
+        img: 'images/12.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/12.mp3'
+    },
+
+    {
+        img: 'images/13.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/13.mp3'
+    },
+
+    {
+        img: 'images/14.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/14.mp3'
+    },
+
+    {
+        img: 'images/15.jpg',
+        name : '',
+        artist : '',
+        music : 'songs/15.mp3'
+    },
+
+    {
+        img: 'images/16.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/16.mp3'
+    },
+
+    {
+        img: 'images/17.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/17.mp3'
+    },
+
+    {
+        img: 'images/18.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/18.mp3'
+    },
+
+    {
+        img: 'images/19.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/19.mp3'
+    },
+
+    {
+        img: 'images/20.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/20.mp3'
+    },
+
+    {
+        img: 'images/21.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/21.mp3'
+    },
+
+    {
+        img: 'images/22.jpg',
+        name : '',
+        artist : '',
+        music : 'songs/22.mp3'
+    },
+
+    {
+        img: 'images/23.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/23.mp3'
+    },
+
+    {
+        img: 'images/24.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/24.mp3'
+    },
+
+    {
+        img: 'images/25.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/25.mp3'
+    },
+
+    {
+        img: 'images/26.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/26.mp3'
+    },
+
+    {
+        img: 'images/27.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/27.mp3'
+    },
+
+    {
+        img: 'images/28.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/28.mp3'
+    },
+
+    {
+        img: 'images/29.jpg',
+        name : '',
+        artist : '',
+        music : 'songs/29.mp3'
+    },
+
+    {
+        img: 'images/30.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/30.mp3'
+    },
+
+    {
+        img: 'images/31.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/31.mp3'
+    },
+
+    {
+        img: 'images/32.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/32.mp3'
+    },
+
+    {
+        img: 'images/33.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/33.mp3'
+    },
+
+    {
+        img: 'images/34.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/34.mp3'
+    },
+
+    {
+        img: 'images/35.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/.mp3'
+    },
+
+    {
+        img: 'images/35.jpg',
+        name : '',
+        artist : '',
+        music : 'songs/.mp3'
+    },
+
+    {
+        img: 'images/36.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/36.mp3'
+    },
+
+    {
+        img: 'images/37.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/37.mp3'
+    },
+
+    {
+        img: 'images/38.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/38.mp3'
+    },
+
+    {
+        img: 'images/39.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/39.mp3'
+    },
+
+    {
+        img: 'images/40.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/40.mp3'
+    },
+
+    {
+        img: 'images/41.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/41.mp3'
+    },
+
+    {
+        img: 'images/42.jpg',
+        name : '',
+        artist : '',
+        music : 'songs/42.mp3'
+    },
+
+    {
+        img: 'images/43.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/43.mp3'
+    },
+
+    {
+        img: 'images/44.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/44.mp3'
+    },
+
+    {
+        img: 'images/45.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/45mp3'
+    },
+    
+    {
+        img: 'images/46.jpg',
+        name: '',
+        artist: '',
+        music: 'songs/46.mp3'
     }
 ];
 
