@@ -30,323 +30,316 @@ const music_list = [
 
     {
         img: 'images/2.jpg',
-        name: '',
-        artist: '',
+        name: 'Splish Splash',
+        artist: 'Bobby Darin',
         music: 'songs/2.mp3'
     },
 
     {
         img: 'images/3.jpg',
-        name: '',
-        artist: '',
+        name: 'CASABLANCA ',
+        artist: 'Bertie Higgins',
         music: 'songs/3.mp3'
     },
 
     {
         img: 'images/4.jpg',
-        name: '',
-        artist: '',
+        name: 'Stumblin',
+        artist: 'Chris Norman & Suzi Quatro',
         music: 'songs/4.mp3'
     },
 
     {
         img: 'images/5.jpg',
-        name: '',
-        artist: '',
+        name: 'Sofia [ slowedlyrics ]',
+        artist: 'Clairo',
         music: 'songs/5.mp3'
     },
 
     {
         img: 'images/6.jpg',
-        name: '',
-        artist: '',
+        name: 'Vincent ( Starry, Starry Night)',
+        artist: 'Don McLean',
         music: 'songs/6.mp3'
     },
 
     {
         img: 'images/7.jpg',
-        name: '',
-        artist: '',
+        name: 'Can`t Help Falling In Love',
+        artist: 'Elvis Presley',
         music: 'songs/7.mp3'
     },
 
     {
         img: 'images/8.jpg',
-        name : '',
-        artist : '',
+        name : 'Girl you are my love',
+        artist : 'Tokyo Square',
         music : 'songs/8.mp3'
     },
 
     {
         img: 'images/9.jpg',
-        name: '',
-        artist: '',
+        name: 'As It Was',
+        artist: 'Harry Styles',
         music: 'songs/9.mp3'
     },
 
     {
         img: 'images/10.jpg',
-        name: '',
-        artist: '',
+        name: 'Daylight',
+        artist: 'Harry Styles',
         music: 'songs/10.mp3'
     },
 
     {
         img: 'images/11.jpg',
-        name: '',
-        artist: '',
+        name: 'Keep Driving',
+        artist: 'Harry Styles',
         music: 'songs/11.mp3'
     },
 
     {
         img: 'images/12.jpg',
-        name: '',
-        artist: '',
+        name: 'Heavenly',
+        artist: 'Cigarettes After Sex',
         music: 'songs/12.mp3'
     },
 
     {
         img: 'images/13.jpg',
-        name: '',
-        artist: '',
+        name: 'High by the beach',
+        artist: 'Lana del rey',
         music: 'songs/13.mp3'
     },
 
     {
         img: 'images/14.jpg',
-        name: '',
-        artist: '',
+        name: 'Art deco',
+        artist: 'Lana del rey',
         music: 'songs/14.mp3'
     },
 
     {
         img: 'images/15.jpg',
-        name : '',
-        artist : '',
+        name : 'Born To Die',
+        artist : 'Lana del rey',
         music : 'songs/15.mp3'
     },
 
     {
         img: 'images/16.jpg',
-        name: '',
-        artist: '',
+        name: 'Brooklyn Baby',
+        artist: 'Lana del rey',
         music: 'songs/16.mp3'
     },
 
     {
         img: 'images/17.jpg',
-        name: '',
-        artist: '',
+        name: 'Love Song',
+        artist: 'Lana del rey',
         music: 'songs/17.mp3'
     },
 
     {
         img: 'images/18.jpg',
-        name: '',
-        artist: '',
+        name: 'Ultraviolence',
+        artist: 'Lana del rey',
         music: 'songs/18.mp3'
     },
 
     {
         img: 'images/19.jpg',
-        name: '',
-        artist: '',
+        name: 'Watercolor Eyes',
+        artist: 'Lana del rey',
         music: 'songs/19.mp3'
     },
 
     {
         img: 'images/20.jpg',
-        name: '',
-        artist: '',
+        name: 'Salvatore',
+        artist: 'Lana del rey',
         music: 'songs/20.mp3'
     },
 
     {
         img: 'images/21.jpg',
-        name: '',
-        artist: '',
+        name: 'Tú',
+        artist: 'Maye',
         music: 'songs/21.mp3'
     },
 
     {
         img: 'images/22.jpg',
-        name : '',
-        artist : '',
+        name : 'Blue Night',
+        artist : 'MLTR',
         music : 'songs/22.mp3'
     },
 
     {
         img: 'images/23.jpg',
-        name: '',
-        artist: '',
+        name: '18',
+        artist: 'One Direction',
         music: 'songs/23.mp3'
     },
 
     {
         img: 'images/24.jpg',
-        name: '',
-        artist: '',
+        name: 'Fool`s Gold',
+        artist: 'One Direction',
         music: 'songs/24.mp3'
     },
 
     {
         img: 'images/25.jpg',
-        name: '',
-        artist: '',
+        name: 'Forever Young',
+        artist: 'One Direction',
         music: 'songs/25.mp3'
     },
 
     {
         img: 'images/26.jpg',
-        name: '',
-        artist: '',
+        name: 'I Want to Write You a Song',
+        artist: 'One Direction',
         music: 'songs/26.mp3'
     },
 
     {
         img: 'images/27.jpg',
-        name: '',
-        artist: '',
+        name: 'Over Again',
+        artist: 'One Direction',
         music: 'songs/27.mp3'
     },
 
     {
         img: 'images/28.jpg',
-        name: '',
-        artist: '',
+        name: 'Walking in the Wind',
+        artist: 'One Direction',
         music: 'songs/28.mp3'
     },
 
     {
         img: 'images/29.jpg',
-        name : '',
-        artist : '',
+        name : 'Put Your Head On My Shoulder',
+        artist : 'Paul Anka',
         music : 'songs/29.mp3'
     },
 
     {
         img: 'images/30.jpg',
-        name: '',
-        artist: '',
+        name: 'မမင',
+        artist: 'Pone Yape',
         music: 'songs/30.mp3'
     },
 
     {
         img: 'images/31.jpg',
-        name: '',
-        artist: '',
+        name: 'Unstoppable',
+        artist: 'Sia',
         music: 'songs/31.mp3'
     },
 
     {
         img: 'images/32.jpg',
-        name: '',
-        artist: '',
+        name: 'SUMMER WINE',
+        artist: 'Lana Del Rey',
         music: 'songs/32.mp3'
     },
 
     {
         img: 'images/33.jpg',
-        name: '',
-        artist: '',
+        name: 'Anti-Hero',
+        artist: 'Taylor Swift',
         music: 'songs/33.mp3'
     },
 
     {
         img: 'images/34.jpg',
-        name: '',
-        artist: '',
+        name: 'Bejeweled',
+        artist: 'Taylor Swift',
         music: 'songs/34.mp3'
     },
 
     {
         img: 'images/35.jpg',
-        name: '',
-        artist: '',
-        music: 'songs/.mp3'
+        name : 'Cardigan',
+        artist : 'Taylor Swift',
+        music : 'songs/35.mp3'
     },
-
-    {
-        img: 'images/35.jpg',
-        name : '',
-        artist : '',
-        music : 'songs/.mp3'
-    },
-
+    
     {
         img: 'images/36.jpg',
-        name: '',
-        artist: '',
+        name: 'Gorgeous',
+        artist: 'Taylor Swift',
         music: 'songs/36.mp3'
     },
 
     {
         img: 'images/37.jpg',
-        name: '',
-        artist: '',
+        name: 'This Love',
+        artist: 'Taylor Swift',
         music: 'songs/37.mp3'
     },
 
     {
         img: 'images/38.jpg',
-        name: '',
-        artist: '',
+        name: 'Violets for Roses',
+        artist: 'Lana Del Rey',
         music: 'songs/38.mp3'
     },
 
     {
         img: 'images/39.jpg',
-        name: '',
-        artist: '',
+        name: 'Yellow',
+        artist: 'Coldplay',
         music: 'songs/39.mp3'
     },
 
     {
         img: 'images/40.jpg',
-        name: '',
-        artist: '',
+        name: 'Yes to heaven',
+        artist: 'Lana Del Rey',
         music: 'songs/40.mp3'
     },
 
     {
         img: 'images/41.jpg',
-        name: '',
-        artist: '',
+        name: 'Letter i',
+        artist: 'Zenith',
         music: 'songs/41.mp3'
     },
 
     {
         img: 'images/42.jpg',
-        name : '',
-        artist : '',
+        name : 'Adesso e fortuna',
+        artist : 'Akino aRei',
         music : 'songs/42.mp3'
     },
 
     {
         img: 'images/43.jpg',
-        name: '',
-        artist: '',
+        name: 'ဆွေးတယ် - ထူးအိမ်သင်',
+        artist: 'Htoo Eain Thin',
         music: 'songs/43.mp3'
     },
 
     {
         img: 'images/44.jpg',
-        name: '',
-        artist: '',
+        name: 'တစ်နေ့နေ့တော့ချစ်လာလိမ့်မည်',
+        artist: 'Htoo Eain Thin',
         music: 'songs/44.mp3'
     },
 
     {
         img: 'images/45.jpg',
-        name: '',
-        artist: '',
-        music: 'songs/45mp3'
+        name: 'ဝတမန - ခငမငတ',
+        artist: 'Khin Maung Toe',
+        music: 'songs/45.mp3'
     },
     
     {
         img: 'images/46.jpg',
-        name: '',
-        artist: '',
+        name: 'When I fall in love',
+        artist: 'Primary Ft. Meego',
         music: 'songs/46.mp3'
     }
 ];
