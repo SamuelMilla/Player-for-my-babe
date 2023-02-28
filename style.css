@@ -29,8 +29,8 @@ body {
 
 .track-art {
     margin: 25px;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border: 1px color  #000000;
     background-size: cover;
     background-position: center;
