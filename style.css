@@ -6,7 +6,7 @@ body {
 }
 
 .player {
-    height: 110vh;
+    height: 115vh;
     display: flex;
     align-items: center;
     flex-direction: column;
